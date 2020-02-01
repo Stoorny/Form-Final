@@ -1,0 +1,54 @@
+body{
+    background-image: url(https://img.freepik.com/free-vector/abstract-technology-particle-background_52683-25766.jpg?size=626&ext=jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.sa1{
+    font-size: 30px;
+    color: blue;
+    margin-bottom: 15px;
+}
+#form{
+    width: 50%;
+    margin: auto;
+    margin-top: 10%;
+    /* margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
+    
+}
+#FName{
+    width: 49%;
+    display: inline-block;
+    font-size: medium;
+    padding: 5px;
+}
+#LName{
+    width: 50%;
+    display: inline-block;
+    font-size: medium;
+}
+#Email{
+    display: block;
+    font-size: medium;
+}
+#Phone{
+    display: block;
+    font-size: medium;
+}
+#FP{
+    display: block;
+    font-size: medium;
+}
+#SP{
+    display: block;
+    font-size: medium;
+}
+.flex-center{
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
