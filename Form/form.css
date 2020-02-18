@@ -1,8 +1,14 @@
-body{
-    background-image: url(https://img.freepik.com/free-vector/abstract-technology-particle-background_52683-25766.jpg?size=626&ext=jpg);
+html{
+    /* background-image: url(https://img.freepik.com/free-vector/abstract-technology-particle-background_52683-25766.jpg?size=626&ext=jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: center; */
+    background-color: purple;
+
+}
+body{
+    margin: 0;
+    padding: 0;  
 }
 .sa1{
     font-size: 30px;
@@ -10,15 +16,12 @@ body{
     margin-bottom: 15px;
 }
 #form{
-    width: 50%;
+    width: 45%;
     margin: auto;
     margin-top: 10%;
-    /* margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%); */
-    
+    background-color: white;
+    padding: 40px 25px 50px 25px;
+    transform: translate(0%, -10%);
 }
 #FName{
     width: 49%;
@@ -27,7 +30,7 @@ body{
     padding: 5px;
 }
 #LName{
-    width: 50%;
+    width: 49%;
     display: inline-block;
     font-size: medium;
 }
@@ -47,8 +50,24 @@ body{
     display: block;
     font-size: medium;
 }
-.flex-center{
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+footer{
+    background-color: purple;
+    margin-top: -8%;
 }
+.icone{ 
+    color: white;
+    text-align: center;
+    margin: 15px 0px;
+ }
+ .ba5000{
+    text-align: center;
+    white-space: nowrap;
+    display: inline-block;
+    padding-top: 5%;
+}
+/* #UH{
+    display: none;
+}
+#UZ{
+    display: none;
+} */

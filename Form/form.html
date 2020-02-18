@@ -2,10 +2,9 @@
 <html lang="en">
     <div>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
         <link rel="stylesheet" href="form.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </div>
 <head>
     <title>Registration Form</title>
@@ -15,62 +14,102 @@
         <h2 class="sa1">Pirates Registration Form</h2>
         <div class="form-group">
         <input class="form-control" id ="FName" type="text" placeholder="First Name" required>
-        <input class="form-control" id ="LName" type="text" placeholder="Last Name" required>
+        <input class="form-control" id ="LName" type="te`xt" placeholder="Last Name" required>
         </div>
+
         <div class="form-group">
         <input class="form-control" id ="Email" type="email" placeholder="E-mail" required>
         </div>
+
         <div class="form-group">
         <input class="form-control" id ="Phone" type="tel" placeholder="Phone Number" required maxlength="11" minlength="11">
         </div>
+
         <div class="form-group">
             <select name="University" id="University" class="custom-select">
-                <option value="1">1</option>
-                <option value="2">2</option>
+                <option selected disabled>University</option>
+                <option value="1">Ain Shams</option>
+                <option value="2">Else</option>
             </select>
         </div>
+
+        <div class="form-group">
+            <input class="form-control" id ="UH" type="text" placeholder="University">
+        </div>
+
         <div class="form-group">
             <select name="College" id="College" class="custom-select">
-                <option value="1">1</option>
-                <option value="2">2</option>
+                <option selected disabled>College</option>
+                <option value="1">Engineering</option>
+                <option value="2">Else</option>
             </select>
-        </div>        
+        </div> 
+        
         <div class="form-group">
-        <select name="FPrefrence" id="FP" class="custom-select">
-            <option value="1">1</option>
-            <option value="2">2</option>
-            <option value="3">3</option>
-            <option value="4">4</option>
-            <option value="5">5</option>
+            <input class="form-control" id ="UZ" type="text" placeholder="University">
+        </div>
+
+        <div class="form-group">
+            <select name="Department" required class="custom-select">
+                <option selected>Select Department</option>
+                <option value="Prep">Prep</option>
+                <option value="Electrical">Electrical</option>
+                <option value="Mechanical">Mechanical</option>
+                <option value="civil">civil</option>
+                <option value="Architecture">Architecture</option>
+            </select>
+        </div>  
+
+         <div class="form-group">
+                <select name="Year" required class="custom-select">
+                <option selected>Select Year</option>
+                <option value="Freshman">Freshman</option>
+                <option value="1st">First Year</option>
+                <option value="2nd">Second Year</option>
+                <option value="3rd">Third Year</option>
+                <option value="4th">Fourth Year</option>
+                </select>
+        </div>  
+
+        <div class="form-group">
+        <select name="FPreference" id="FP" class="custom-select">
+            <option selected>First Preference</option>
+            <option value="Marketing">Marketing</option>
+            <option value="Advertising">Advertising</option>
+            <option value="Project Management">Project Management</option>
+            <option value="Human Resources">Human Resources</option>
+            <option value="Business">Business</option>
+            <option value="Business Development">Business Development</option>
+            <option value="Got Talent">Got Talent</option>
         </select>
         </div>
+
         <div class="form-group">
-        <select name="SPrefrence" id="SP" class="custom-select">
-            <option value="1">1</option>
-            <option value="2">2</option>
-            <option value="3">3</option>
-            <option value="4">4</option>
-            <option value="5">5</option>
+        <select name="SPreference" id="SP" class="custom-select">
+            <option selected>Second Preference</option>
+            <option value="Marketing">Marketing</option>
+            <option value="Advertising">Advertising</option>
+            <option value="Project Management">Project Management</option>
+            <option value="Human Resources">Human Resources</option>
+            <option value="Business">Business</option>
+            <option value="Business Development">Business Development</option>
+            <option value="Got Talent">Got Talent</option>
         </select>
         </div>
+
         <button type="submit" class="btn btn-primary">Submit</button>
-        <!-- To Be Commented :D -->
-        <br> <br>
-        <div class="spinner-grow text-muted"></div>
-        <div class="spinner-grow text-primary"></div>
-        <div class="spinner-grow text-success"></div>
-        <div class="spinner-grow text-info"></div>
-        <div class="spinner-grow text-warning"></div>
-        <div class="spinner-grow text-danger"></div>
-        <div class="spinner-grow text-secondary"></div>
-        <div class="spinner-grow text-dark"></div>
-        <div class="spinner-grow text-light"></div>
-        <div class="spinner-grow text-muted"></div>
-        <div class="spinner-grow text-primary"></div>
-        <div class="spinner-grow text-success"></div>
-        <div class="spinner-grow text-info"></div>     
-           <!-- To Be Commented :D -->
     </form>
- 
+   
+    <footer>
+        <div class="ba5000 col-md-12 center-block">
+            <a href="https://www.facebook.com/piratesegypt/"><i class="icone fa fa-facebook-official fa-lg text-center"></i></a>
+            <i class="icone fa fa-instagram fa-lg"></i>
+            <i class="icone fa fa-twitter fa-lg"></i>
+        </div>
+    </footer>
+
+    <script>
+    </script>
+
 </body>
 </html>
